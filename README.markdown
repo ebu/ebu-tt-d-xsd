@@ -23,6 +23,6 @@ EBU-TT-D SUBTITLING DISTRIBUTION FORMAT (EBU Tech 3380) https://tech.ebu.ch/publ
 
 ## Copyright & license
 
-Copyright (c) 2014, EBU-UER Technology & Innovation
+Copyright (c) 2015, EBU-UER Technology & Innovation
 
 The code is under BSD (3-Clause) License. (see LICENSE.txt)
