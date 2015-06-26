@@ -19,7 +19,7 @@ Andreas Tai (IRT)
 Parts of the the EBU-TT-D W3C XML Schema were developed in the European collaborative research project HBB4ALL. This project has received funding from the European Union ICT Policy Support Programme (ICT PSP) under the Competitiveness and Innovation Framework Programme (CIP).
 
 ## RESOURCES     
-EBU-TT-D SUBTITLING DISTRIBUTION FORMAT (EBU Tech 3380) https://tech.ebu.ch/docs/tech/tech3380.pdf
+EBU-TT-D SUBTITLING DISTRIBUTION FORMAT (EBU Tech 3380) https://tech.ebu.ch/publications/tech3380
 
 ## Copyright & license
 
