@@ -4,8 +4,10 @@
 	xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
 	xmlns:ebuttm="urn:ebu:tt:metadata" xmlns:ebutts="urn:ebu:tt:style"
 	xmlns:ittp="http://www.w3.org/ns/ttml/profile/imsc1#parameter"	
+	xmlns:itts="http://www.w3.org/ns/ttml/profile/imsc1#styling"
 	targetNamespace="http://www.w3.org/ns/ttml">
-	<xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2001/xml.xsd"/>
+	<xs:import namespace="http://www.w3.org/XML/1998/namespace"
+		schemaLocation="http://www.w3.org/2001/xml.xsd"/>
 	<xs:import namespace="http://www.w3.org/ns/ttml#styling" schemaLocation="styling.xsd"/>
 	<xs:import namespace="http://www.w3.org/ns/ttml#parameter" schemaLocation="parameter.xsd"/>
 	<xs:import namespace="urn:ebu:tt:metadata" schemaLocation="ebutt_metadata.xsd"/>
@@ -14,6 +16,8 @@
 	<xs:import namespace="http://www.w3.org/ns/ttml#metadata" schemaLocation="metadata.xsd"/>
 	<xs:import namespace="http://www.w3.org/ns/ttml/profile/imsc1#parameter"
 		schemaLocation="imsc1-parameters.xsd"/>
+	<xs:import namespace="http://www.w3.org/ns/ttml/profile/imsc1#styling"
+		schemaLocation="imsc1-styling.xsd"/>
 	<xs:element name="tt">
 		<xs:annotation>
 			<xs:documentation>Root element of an EBU-TT-D XML document.</xs:documentation>
@@ -86,9 +90,6 @@
 			<xs:documentation>Set of style information.</xs:documentation>
 		</xs:annotation>
 		<xs:complexType>
-			<xs:sequence>
-				<xs:element ref="tt:metadata" minOccurs="0"/>
-			</xs:sequence>
 			<xs:attribute ref="xml:id" use="required">
 				<xs:annotation>
 					<xs:documentation>ID of a tt:style element that is used by other elements for
@@ -109,6 +110,7 @@
 			<xs:attribute ref="tts:wrapOption"/>
 			<xs:attribute ref="ebutts:multiRowAlign"/>
 			<xs:attribute ref="ebutts:linePadding"/>
+			<xs:attribute ref="itts:fillLineGap"/>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="layout">
