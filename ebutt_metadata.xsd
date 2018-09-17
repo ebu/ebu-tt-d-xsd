@@ -94,7 +94,7 @@
 						</xs:simpleContent>
 					</xs:complexType>
 				</xs:element>
-				<xs:element name="documentIntendedTargetFormat" minOccurs="0">
+				<xs:element name="documentIntendedTargetFormat" minOccurs="0" maxOccurs="unbounded">
 					<xs:annotation>
 						<xs:documentation>Indicates the subtitle format an author had in mind when authoring an EBU-TT-D document or transforming another format to an EBU-TT-D document.</xs:documentation>
 					</xs:annotation>
