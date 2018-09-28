@@ -14,7 +14,7 @@ If you have any question regarding the use of the XML Schema please contact subt
 Andreas Tai (IRT), Barbara Fichte (IRT), Gary Pearman, Nigel Megitt (BBC)
 
 ## Acknowledgement
-Parts of the the EBU-TT-D W3C XML Schema were developed in the European collaborative research project HBB4ALL. This project has received funding from the European Union ICT Policy Support Programme (ICT PSP) under the Competitiveness and Innovation Framework Programme (CIP).
+Parts of the EBU-TT-D W3C XML Schema were developed in the European collaborative research project HBB4ALL. This project has received funding from the European Union ICT Policy Support Programme (ICT PSP) under the Competitiveness and Innovation Framework Programme (CIP).
 
 ## RESOURCES     
 EBU-TT-D SUBTITLING DISTRIBUTION FORMAT (EBU Tech 3380) https://tech.ebu.ch/publications/tech3380
