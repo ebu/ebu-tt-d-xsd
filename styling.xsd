@@ -67,27 +67,15 @@ limitations under the License.
 			<xs:documentation>Background colour of a subtitle or a region.</xs:documentation>
 		</xs:annotation>
 	</xs:attribute>
-	<xs:attribute name="fontStyle">
+	<xs:attribute name="fontStyle" type="ebuttdt:fontStyleType">
 		<xs:annotation>
 			<xs:documentation>Font style that applies to glyphs.</xs:documentation>
 		</xs:annotation>
-		<xs:simpleType>
-			<xs:restriction base="xs:token">
-				<xs:enumeration value="normal"/>
-				<xs:enumeration value="italic"/>
-			</xs:restriction>
-		</xs:simpleType>
 	</xs:attribute>
-	<xs:attribute name="fontWeight">
+	<xs:attribute name="fontWeight" type="ebuttdt:fontWeightType">
 		<xs:annotation>
 			<xs:documentation>Font weight that applies to glyphs.</xs:documentation>
 		</xs:annotation>
-		<xs:simpleType>
-			<xs:restriction base="xs:token">
-				<xs:enumeration value="normal"/>
-				<xs:enumeration value="bold"/>
-			</xs:restriction>
-		</xs:simpleType>
 	</xs:attribute>
 	<xs:attribute name="textDecoration">
 		<xs:annotation>

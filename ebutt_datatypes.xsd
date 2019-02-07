@@ -18,6 +18,23 @@
 	<xs:simpleType name="fontFamilyType">
 		<xs:union memberTypes="ebuttdt:genericFamilyName ebuttdt:familyName"/>
 	</xs:simpleType>
+	<xs:simpleType name="fontSizeType">
+		<xs:union
+			memberTypes="ebuttdt:distributionLengthType"
+		/>
+	</xs:simpleType>
+	<xs:simpleType name="fontStyleType">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="normal"/>
+			<xs:enumeration value="italic"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="fontWeightType">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="normal"/>
+			<xs:enumeration value="bold"/>
+		</xs:restriction>
+	</xs:simpleType>
 	<xs:simpleType name="distributionFontSizeType">
 		<xs:restriction base="ebuttdt:distributionLengthType"/>
 	</xs:simpleType>
@@ -85,6 +102,26 @@
 	</xs:simpleType>
 	<xs:simpleType name="familyName">
 		<xs:restriction base="xs:string">
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="noTimezoneDateType">
+		<xs:restriction base="xs:date">
+			<xs:pattern value="[^:Z]*"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="transitionStyleAttributeType">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="block"/>
+			<xs:enumeration value="line"/>
+			<xs:enumeration value="word"/>
+			<xs:enumeration value="partOfWord"/>
+			<xs:enumeration value="groupOfWords"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="authoringDelayType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[+-]?[0-9]+(\.[0-9]+)?(h|ms|s|m)"/>
 		</xs:restriction>
 	</xs:simpleType>
 </xs:schema>
