@@ -15,7 +15,13 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 -->
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ebuttdt="urn:ebu:tt:datatypes" xmlns:ebutts="urn:ebu:tt:style" targetNamespace="http://www.w3.org/ns/ttml#styling">
+<xs:schema 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:tts="http://www.w3.org/ns/ttml#styling" 
+	xmlns:ebuttdt="urn:ebu:tt:datatypes" 
+	xmlns:ebutts="urn:ebu:tt:style" 
+	targetNamespace="http://www.w3.org/ns/ttml#styling"
+	xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" vc:minVersion="1.1">
 	<xs:import namespace="urn:ebu:tt:datatypes" schemaLocation="ebutt_datatypes.xsd"/>
 	<xs:attribute name="direction">
 		<xs:annotation>
