@@ -24,3 +24,10 @@ EBU-TT-D SUBTITLING DISTRIBUTION FORMAT (EBU Tech 3380) https://tech.ebu.ch/publ
 Copyright (c) 2015, EBU-UER Technology & Innovation
 
 The code is under BSD (3-Clause) License. (see LICENSE.txt)
+
+## Cloning
+
+This schema depends on the ebu/ebu-tt-m-xsd repository and imports it via a git submodule.
+
+If cloning from the command line make sure to include the `--recurse-submodules` option,
+or after cloning run `git submodule init` then `git submodule update`.
