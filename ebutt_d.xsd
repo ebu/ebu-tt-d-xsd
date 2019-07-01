@@ -5,15 +5,16 @@
 	xmlns:ebuttm="urn:ebu:tt:metadata" xmlns:ebutts="urn:ebu:tt:style"
 	xmlns:ittp="http://www.w3.org/ns/ttml/profile/imsc1#parameter"	
 	xmlns:itts="http://www.w3.org/ns/ttml/profile/imsc1#styling"
-	targetNamespace="http://www.w3.org/ns/ttml">
+	targetNamespace="http://www.w3.org/ns/ttml"
+	xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" vc:minVersion="1.1">
 	<xs:import namespace="http://www.w3.org/XML/1998/namespace"
 		schemaLocation="http://www.w3.org/2001/xml.xsd"/>
 	<xs:import namespace="http://www.w3.org/ns/ttml#styling" schemaLocation="styling.xsd"/>
 	<xs:import namespace="http://www.w3.org/ns/ttml#parameter" schemaLocation="parameter.xsd"/>
-	<xs:import namespace="urn:ebu:tt:metadata" schemaLocation="ebutt_metadata.xsd"/>
+	<xs:import namespace="urn:ebu:tt:metadata" schemaLocation="ebu-tt-m-xsd/ebu-tt-metadata.xsd"/>
 	<xs:import namespace="urn:ebu:tt:style" schemaLocation="ebutt_styling.xsd"/>
 	<xs:import namespace="urn:ebu:tt:datatypes" schemaLocation="ebutt_datatypes.xsd"/>
-	<xs:import namespace="http://www.w3.org/ns/ttml#metadata" schemaLocation="metadata.xsd"/>
+	<xs:import namespace="http://www.w3.org/ns/ttml#metadata" schemaLocation="ebu-tt-m-xsd/metadata.xsd"/>
 	<xs:import namespace="http://www.w3.org/ns/ttml/profile/imsc1#parameter"
 		schemaLocation="imsc1-parameters.xsd"/>
 	<xs:import namespace="http://www.w3.org/ns/ttml/profile/imsc1#styling"
