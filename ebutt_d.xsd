@@ -6,7 +6,6 @@
 	xmlns:itts="http://www.w3.org/ns/ttml/profile/imsc1#styling"
 	xmlns:ittp="http://www.w3.org/ns/ttml/profile/imsc1#parameter"	
 	targetNamespace="http://www.w3.org/ns/ttml">
-
 	<xs:import namespace="http://www.w3.org/XML/1998/namespace"
 		schemaLocation="http://www.w3.org/2001/xml.xsd"/>
 	<xs:import namespace="http://www.w3.org/ns/ttml#styling" schemaLocation="styling.xsd"/>
