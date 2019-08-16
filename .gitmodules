@@ -1,0 +1,3 @@
+[submodule "ebu-tt-m-xsd"]
+	path = ebu-tt-m-xsd
+	url = https://github.com/ebu/ebu-tt-m-xsd.git
